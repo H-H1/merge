@@ -18,6 +18,7 @@ func main() {
 	go func() {
 		fmt.Println("22222")
 		fmt.Println("22222")
+		fmt.Println("b1修改")
 	}()
 
 	// 发送1个数据关闭channel
