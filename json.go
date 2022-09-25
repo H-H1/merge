@@ -17,6 +17,7 @@ func main() {
 	ch := make(chan int, 1)
 	go func() {
 		fmt.Println("22222")
+		fmt.Println("22222")
 	}()
 
 	// 发送1个数据关闭channel
