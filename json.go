@@ -10,7 +10,8 @@ type Metric struct {
 
 // demo_select6.go
 func main() {
-	//github修改第一次
+	//github修改第一次 ，下次本地修改
+	//本地修改
 	ch := make(chan int, 1)
 
 	// 发送1个数据关闭channel
