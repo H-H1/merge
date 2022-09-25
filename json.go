@@ -12,7 +12,11 @@ type Metric struct {
 func main() {
 	//github修改第一次 ，下次本地修改
 	//本地修改
+<<<<<<< Updated upstream
 	//github修改第二次 
+=======
+	//本地修改第二次
+>>>>>>> Stashed changes
 	ch := make(chan int, 1)
 
 	// 发送1个数据关闭channel
