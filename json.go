@@ -15,9 +15,13 @@ func main() {
 	//github修改第二次 
 
 	ch := make(chan int, 1)
+	go func() {
+		fmt.Println("22222")
+	}()
 
 	// 发送1个数据关闭channel
 	ch <- 1
+
 	//close(ch)
 	// 不停读数据直到channel没有有效数据
 	for {
