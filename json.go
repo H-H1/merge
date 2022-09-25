@@ -17,15 +17,7 @@ func main() {
 	ch := make(chan int, 1)
 	go func() {
 		fmt.Println("22222")
-<<<<<<< Updated upstream
-		fmt.Println("22222")
-=======
-<<<<<<< HEAD
-		fmt.Println("33333")
-=======
-		fmt.Println("22222")
->>>>>>> 583f719554f28b1b9e448135372ec3f97aaa7c38
->>>>>>> Stashed changes
+
 	}()
 
 	// 发送1个数据关闭channel
